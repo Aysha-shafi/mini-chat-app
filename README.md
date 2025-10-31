@@ -120,3 +120,14 @@ npm run dev
 # Terminal 2 - Start the client
 cd client
 npm run dev
+
+
+
+# Deployment Links
+🚀 ### Live Demo
+
+🔗 https://mini-chat-app-5.onrender.com
+
+💾 ### GitHub Repository
+
+🔗 https://github.com/Aysha-shafi/mini-chat-app
