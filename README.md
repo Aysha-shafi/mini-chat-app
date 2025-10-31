@@ -20,7 +20,7 @@ The app follows a client–server model with Socket.IO for bi-directional real-t
 
   - Gravatar avatars
 
-  - Message read receipts (✅ single, ✅✅ double, and blue double when seen)
+  - Message read receipts 
 
 # Backend (Server)
 
@@ -36,7 +36,7 @@ The app follows a client–server model with Socket.IO for bi-directional real-t
 
    - Handling read receipts
 
-   - Generating Gravatar URLs for each user using their username-based email (e.g., username@example.com).
+   - Generating Gravatar URLs for each user using their username-based email 
 
 # Tech Stack
 
@@ -88,7 +88,7 @@ Only the last 50 messages are loaded at startup to balance speed and data size.
 ## 🚀 How to Run Locally
 1️⃣ **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/mini-chat-app.git
+git clone https://github.com/Aysha-shafi/mini-chat-app.git
 cd mini-chat-app
 
 2️⃣ **Install dependencies**
