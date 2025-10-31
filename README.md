@@ -90,7 +90,7 @@ Only the last 50 messages are loaded at startup to balance speed and data size.
 ```bash
 git clone https://github.com/Aysha-shafi/mini-chat-app.git
 cd mini-chat-app
-
+```
 2️⃣ **Install dependencies**
 
 For both client and server:
@@ -100,7 +100,7 @@ cd client
 npm install
 cd ../server
 npm install
-
+```
 3️⃣ **Setup environment variables**
 
 Create a .env file inside the server/ folder:
@@ -108,7 +108,7 @@ Create a .env file inside the server/ folder:
 
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
-
+```
 4️⃣ **Run the app**
 
 In two separate terminals:
@@ -121,13 +121,13 @@ npm run dev
 cd client
 npm run dev
 
-
+```
 
 # Deployment Links
-🚀 ### Live Demo
+### Live Demo
 
 🔗 https://mini-chat-app-5.onrender.com
 
-💾 ### GitHub Repository
+### GitHub Repository
 
 🔗 https://github.com/Aysha-shafi/mini-chat-app
