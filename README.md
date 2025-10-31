@@ -2,7 +2,7 @@
 
 The app follows a client–server model with Socket.IO for bi-directional real-time communication.
 
-# Frontend (Client)
+### Frontend (Client)
 
 - Built with React.
 
@@ -22,7 +22,7 @@ The app follows a client–server model with Socket.IO for bi-directional real-t
 
   - Message read receipts 
 
-# Backend (Server)
+### Backend (Server)
 
 - Built with Express.js and Socket.IO.
 
@@ -62,18 +62,18 @@ The app follows a client–server model with Socket.IO for bi-directional real-t
 
 ### Features
 
-✅ Real-time messaging
-✅ Online / Offline user tracking
-✅ Typing indicator ("✍️ username is typing...")
-✅ Emoji picker support
-✅ Message read receipts (single, double, blue tick)
-✅ Auto-generated avatars (via Gravatar)
-✅ Message history (last 50 messages)
+- ✅ Real-time messaging
+- ✅ Online / Offline user tracking
+- ✅ Typing indicator 
+- ✅ Emoji picker support
+- ✅ Message read receipts 
+- ✅ Auto-generated avatars (via Gravatar)
+- ✅ Message history (last 50 messages)
 
 ### Trade-offs and Design Decisions
 
 - Gravatar Integration:
-Simplified avatar system using username-based emails (username@example.com) instead of image uploads to avoid file handling complexity.
+Simplified avatar system using username-based emails  instead of image uploads to avoid file handling complexity.
 
 - Typing indicators:
 Implemented using simple broadcast events — this avoids heavy message traffic but only supports one active indicator at a time.
